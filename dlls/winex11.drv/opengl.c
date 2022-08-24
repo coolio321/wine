@@ -1609,7 +1609,7 @@ static int describe_pixel_format( int iPixelFormat, PIXELFORMATDESCRIPTOR *ppfd,
     ppfd->cGreenBits = gb;
     ppfd->cGreenShift = bb + ab;
     ppfd->cAlphaBits = ab;
-    ppfd->cAlphaShift = 0;
+    ppfd->cAlphaShift = 24;
   } else {
     ppfd->cRedBits = 0;
     ppfd->cRedShift = 0;
